@@ -1,5 +1,6 @@
 ﻿using DataAccess;
 using GTLCore;
+using InfrastructureLayer.Common;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
@@ -9,6 +10,7 @@ namespace GTLUnitTest
     [TestClass]
     public class PersonUnitTest
     {
+
         private PersonRepository _personRepository;
         private Person _person;
 
@@ -28,10 +30,13 @@ namespace GTLUnitTest
         [TestMethod]
         public void Add_Person_Test()
         {
+            Random random = new Random();
+            int n = random.Next(1, 10000000);
+
             // Arrange
             var p = new Person
             {
-                first_name = "Anne",
+                first_name = "Anne" + n,
                 last_name = "Maria",
                 middle_name = "Rasmusen"
             };
@@ -40,6 +45,10 @@ namespace GTLUnitTest
             // Assert
 
             Assert.AreNotEqual(p, insertedSurvey);
+
+            //logger
+            StaticLogger.LogInfo(this.GetType(), "Person created!");
+
         }
 
         [TestMethod]

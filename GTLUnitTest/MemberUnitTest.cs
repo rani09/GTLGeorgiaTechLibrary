@@ -1,5 +1,6 @@
 ﻿using DataAccess;
 using GTLCore;
+using InfrastructureLayer.Common;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
@@ -42,6 +43,9 @@ namespace GTLUnitTest
             // Assert
 
             Assert.AreNotEqual(m, insertedSurvey);
+
+            //Logger
+            StaticLogger.LogInfo(this.GetType(), "Member created!");
         }
 
         [TestMethod]
