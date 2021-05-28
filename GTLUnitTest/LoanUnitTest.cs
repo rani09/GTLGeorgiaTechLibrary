@@ -1,5 +1,6 @@
 ﻿using DataAccess;
 using GTLCore;
+using InfrastructureLayer.Common;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,7 @@ namespace GTLUnitTest
     [TestClass]
     public class LoanUnitTest
     {
+
         private LoanRepository _loanRepository;
         private Loan _Loan;
 
@@ -48,6 +50,9 @@ namespace GTLUnitTest
 
             // Assert
             Assert.AreNotEqual(l, insertedSurvey);
+
+            //Logger
+            StaticLogger.LogInfo(this.GetType(), "Loan created!");
         }
         [TestMethod]
         public void Update_Loan_Test()

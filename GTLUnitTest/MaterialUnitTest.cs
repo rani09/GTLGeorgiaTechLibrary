@@ -1,6 +1,7 @@
 ﻿using Autofac.Extras.Moq;
 using DataAccess;
 using GTLCore;
+using InfrastructureLayer.Common;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using System;
@@ -11,6 +12,7 @@ namespace GTLUnitTest
     [TestClass]
     public class MaterialUnitTest
     {
+      
         private MaterialRepository _materialRepository;
         private Material _material;
 
@@ -53,6 +55,9 @@ namespace GTLUnitTest
             // Assert
 
             Assert.AreNotEqual(m, insertedSurvey);
+
+            //Logger
+            StaticLogger.LogInfo(this.GetType(), "Material created!");
         }
 
 
