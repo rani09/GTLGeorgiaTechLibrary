@@ -1,10 +1,10 @@
-﻿using System;
+﻿using GTLCore;
+using Services;
+using System;
 using System.Configuration;
 using System.Data.SqlClient;
 using System.Data.SqlTypes;
 using System.Windows.Forms;
-using GTLCore;
-using Services;
 
 namespace GTLGeorgiaTechLibrary
 {
@@ -15,13 +15,6 @@ namespace GTLGeorgiaTechLibrary
         {
             InitializeComponent();
         }
-        void ClearInput()
-        {
-            txtName.Text = null;
-            txtMiddleName.Text = null;
-            txtLastName.Text = null;
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
             try
@@ -34,7 +27,7 @@ namespace GTLGeorgiaTechLibrary
                 materialPConatiner.Enabled = false;
                 bindingSourceMaterial.AutoGenerateColumns = false;
 
-                
+
             }
             catch (Exception ex)
             {
@@ -176,11 +169,6 @@ namespace GTLGeorgiaTechLibrary
             else if (metroCheckBoxIsProfessor.CheckState == CheckState.Unchecked)
                 metroCheckBoxIsProfessor.Text = "Is not professor";
             else metroCheckBoxIsProfessor.Text = "?";
-        }
-
-        private void metroButton_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void editMember_Click(object sender, EventArgs e)
