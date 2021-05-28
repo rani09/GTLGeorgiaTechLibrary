@@ -140,10 +140,6 @@
       <Project>{e6e72314-ccfc-432d-9b8f-51f3f77ee576}</Project>
       <Name>GTLCore</Name>
     </ProjectReference>
-    <ProjectReference Include="..\InfrastructureLayer\InfrastructureLayer.csproj">
-      <Project>{f4aeae49-e44d-4bdc-82f7-69ab6ba98933}</Project>
-      <Name>InfrastructureLayer</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Services\Services.csproj">
       <Project>{ff73e12c-a8dd-4f08-ab81-6af5a4050c4d}</Project>
       <Name>Services</Name>

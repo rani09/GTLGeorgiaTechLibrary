@@ -1,12 +1,6 @@
 ﻿using DataAccess;
-using FlaUI.Core;
-using FlaUI.UIA3;
 using GTLCore;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.Collections.Generic;
-using System.Data.SqlTypes;
-using System.Text;
 
 namespace GTLUnitTest
 {
@@ -17,7 +11,7 @@ namespace GTLUnitTest
     public class CodedUITest
     {
         private LoanRepository _loanRepository;
-        private Loan _loan;
+        //private Loan _loan;
 
         [TestInitialize]
         public void TestInitialize()

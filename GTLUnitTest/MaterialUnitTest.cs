@@ -1,9 +1,7 @@
-﻿using Autofac.Extras.Moq;
-using DataAccess;
+﻿using DataAccess;
 using GTLCore;
 using InfrastructureLayer.Common;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Moq;
 using System;
 using System.Collections.Generic;
 
@@ -12,7 +10,7 @@ namespace GTLUnitTest
     [TestClass]
     public class MaterialUnitTest
     {
-      
+
         private MaterialRepository _materialRepository;
         private Material _material;
 

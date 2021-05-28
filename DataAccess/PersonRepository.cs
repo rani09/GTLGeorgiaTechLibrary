@@ -1,9 +1,9 @@
-﻿using GTLCore;
+﻿using Dapper;
+using GTLCore;
 using System.Collections.Generic;
-using System.Linq;
-using Dapper;
 using System.Data;
 using System.Data.SqlClient;
+using System.Linq;
 
 namespace DataAccess
 {
