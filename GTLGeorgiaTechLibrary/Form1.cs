@@ -27,15 +27,13 @@ namespace GTLGeorgiaTechLibrary
                 materialPConatiner.Enabled = false;
                 bindingSourceMaterial.AutoGenerateColumns = false;
 
-
             }
             catch (Exception ex)
             {
-
                 MetroFramework.MetroMessageBox.Show(this, ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        private void btnAdd_Click(object sender, EventArgs e)
+        private void BtnAdd_Click(object sender, EventArgs e)
         {
             objState = EntityState.Added;
             pContainer.Enabled = true;
@@ -48,7 +46,6 @@ namespace GTLGeorgiaTechLibrary
         {
             pContainer.Enabled = false;
             personBindingSource.ResetBindings(false);
-            //ClearInput();
             this.Form1_Load(sender, e);
         }
 
@@ -123,10 +120,18 @@ namespace GTLGeorgiaTechLibrary
         }
         private void Removebook_Click(object sender, EventArgs e)
         {
-            foreach (DataGridViewRow item in this.bindingSourceMaterial.SelectedRows)
+            try
             {
-                bindingSourceMaterial.Rows.RemoveAt(item.Index);
+                foreach (DataGridViewRow item in this.bindingSourceMaterial.SelectedRows)
+                {
+                    bindingSourceMaterial.Rows.RemoveAt(item.Index);
+                }
             }
+            catch (Exception ex)
+            {
+                MetroFramework.MetroMessageBox.Show(this, ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
         }
         private void SaveLoans_Click(object sender, EventArgs e)
         {
@@ -210,7 +215,6 @@ namespace GTLGeorgiaTechLibrary
         {
             memberPContainer.Enabled = false;
             memberBindingSource.ResetBindings(false);
-            //ClearInput();
             this.Form1_Load(sender, e);
         }
 
@@ -235,33 +239,26 @@ namespace GTLGeorgiaTechLibrary
                 MetroFramework.MetroMessageBox.Show(this, ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
-        private void listOfLoans_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void addMaterial_Click(object sender, EventArgs e)
         {
             objState = EntityState.Added;
             materialPConatiner.Enabled = true;
             materialBindingSource.Add(new Material());
             materialBindingSource.MoveLast();
-            txtIsbn.Focus();
+            isbn.Focus();
         }
 
         private void editMaterial_Click(object sender, EventArgs e)
         {
             objState = EntityState.Changed;
             materialPConatiner.Enabled = true;
-            txtIsbn.Focus();
+            isbn.Focus();
         }
 
         private void cancelMaterial_Click(object sender, EventArgs e)
         {
             materialPConatiner.Enabled = false;
             materialBindingSource.ResetBindings(false);
-            //ClearInput();
             this.Form1_Load(sender, e);
         }
 
@@ -314,7 +311,6 @@ namespace GTLGeorgiaTechLibrary
                 MetroFramework.MetroMessageBox.Show(this, ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
         private void btnClear_Click(object sender, EventArgs e)
         {
             txtLoanmaterialId.Text = null;

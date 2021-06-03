@@ -30,18 +30,18 @@ namespace GTLGeorgiaTechLibrary
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pContainer = new MetroFramework.Controls.MetroPanel();
             this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
             this.label7 = new System.Windows.Forms.Label();
@@ -49,7 +49,6 @@ namespace GTLGeorgiaTechLibrary
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.metroTextBox1 = new MetroFramework.Controls.MetroTextBox();
-            this.personBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.metroTextBox2 = new MetroFramework.Controls.MetroTextBox();
             this.metroTextBox3 = new MetroFramework.Controls.MetroTextBox();
             this.metroTextBox4 = new MetroFramework.Controls.MetroTextBox();
@@ -61,19 +60,14 @@ namespace GTLGeorgiaTechLibrary
             this.txtMiddleName = new MetroFramework.Controls.MetroTextBox();
             this.txtName = new MetroFramework.Controls.MetroTextBox();
             this.txtPersonId = new MetroFramework.Controls.MetroTextBox();
-            this.btnAdd = new MetroFramework.Controls.MetroButton();
+            this.BtnAdd = new MetroFramework.Controls.MetroButton();
             this.btnEdit = new MetroFramework.Controls.MetroButton();
             this.btnDelete = new MetroFramework.Controls.MetroButton();
             this.btnCancel = new MetroFramework.Controls.MetroButton();
             this.btnSave = new MetroFramework.Controls.MetroButton();
             this.metroGrid = new MetroFramework.Controls.MetroGrid();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.firstnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.middlenameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lastnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.memberPContainer = new MetroFramework.Controls.MetroPanel();
             this.menberPersonId = new MetroFramework.Controls.MetroTextBox();
-            this.memberBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.metroCheckBoxIsProfessor = new MetroFramework.Controls.MetroCheckBox();
@@ -87,41 +81,27 @@ namespace GTLGeorgiaTechLibrary
             this.editMember = new MetroFramework.Controls.MetroButton();
             this.AddMember = new MetroFramework.Controls.MetroButton();
             this.metroGridMember = new MetroFramework.Controls.MetroGrid();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewCheckBoxColumn1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.personDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.addToLoanList = new MetroFramework.Controls.MetroButton();
             this.metroGrid1 = new MetroFramework.Controls.MetroGrid();
-            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.isbnDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.languageDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.titleDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.subjectareaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.descriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.noofcopiesDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.totalloansDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.loanableacquireDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.materialBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.materialPConatiner = new MetroFramework.Controls.MetroPanel();
-            this.txtDescription = new MetroFramework.Controls.MetroTextBox();
-            this.txtLoanable = new MetroFramework.Controls.MetroTextBox();
+            this.description = new MetroFramework.Controls.MetroTextBox();
+            this.loanableaquire = new MetroFramework.Controls.MetroTextBox();
             this.label23 = new System.Windows.Forms.Label();
-            this.txtMaterialTotal = new MetroFramework.Controls.MetroTextBox();
-            this.txtNoOfCopies = new MetroFramework.Controls.MetroTextBox();
+            this.totalloans = new MetroFramework.Controls.MetroTextBox();
+            this.noofcopies = new MetroFramework.Controls.MetroTextBox();
             this.label22 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.txtSubject = new MetroFramework.Controls.MetroTextBox();
+            this.subjecttitle = new MetroFramework.Controls.MetroTextBox();
             this.label20 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.txtIsbn = new MetroFramework.Controls.MetroTextBox();
-            this.txtMaterialTitle = new MetroFramework.Controls.MetroTextBox();
+            this.isbn = new MetroFramework.Controls.MetroTextBox();
+            this.title = new MetroFramework.Controls.MetroTextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.txtMaterialId = new MetroFramework.Controls.MetroTextBox();
+            this.id = new MetroFramework.Controls.MetroTextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.txtLanguage = new MetroFramework.Controls.MetroTextBox();
+            this.language = new MetroFramework.Controls.MetroTextBox();
             this.txtLoanSsn = new MetroFramework.Controls.MetroTextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -143,18 +123,38 @@ namespace GTLGeorgiaTechLibrary
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel5 = new MetroFramework.Controls.MetroLabel();
+            this.memberBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.materialBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.isbnDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.languageDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.titleDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.subjectareaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.descriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.noofcopiesDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.totalloansDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.loanableacquireDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewCheckBoxColumn1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.personDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.firstnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.middlenameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lastnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.personBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.pContainer.SuspendLayout();
             this.metroPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.personBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.metroGrid)).BeginInit();
             this.memberPContainer.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.memberBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.metroGridMember)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.metroGrid1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.materialBindingSource)).BeginInit();
             this.materialPConatiner.SuspendLayout();
             this.metroPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSourceMaterial)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.memberBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.materialBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.personBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // pContainer
@@ -268,10 +268,6 @@ namespace GTLGeorgiaTechLibrary
             this.metroTextBox1.UseSelectable = true;
             this.metroTextBox1.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.metroTextBox1.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // personBindingSource
-            // 
-            this.personBindingSource.DataSource = typeof(GTLCore.Person);
             // 
             // metroTextBox2
             // 
@@ -522,17 +518,17 @@ namespace GTLGeorgiaTechLibrary
             this.txtPersonId.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txtPersonId.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // btnAdd
+            // BtnAdd
             // 
-            this.btnAdd.BackColor = System.Drawing.Color.ForestGreen;
-            this.btnAdd.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnAdd.Location = new System.Drawing.Point(23, 271);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(57, 34);
-            this.btnAdd.TabIndex = 3;
-            this.btnAdd.Text = "Add";
-            this.btnAdd.UseSelectable = true;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            this.BtnAdd.BackColor = System.Drawing.Color.ForestGreen;
+            this.BtnAdd.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.BtnAdd.Location = new System.Drawing.Point(23, 271);
+            this.BtnAdd.Name = "BtnAdd";
+            this.BtnAdd.Size = new System.Drawing.Size(57, 34);
+            this.BtnAdd.TabIndex = 3;
+            this.BtnAdd.Text = "Add";
+            this.BtnAdd.UseSelectable = true;
+            this.BtnAdd.Click += new System.EventHandler(this.BtnAdd_Click);
             // 
             // btnEdit
             // 
@@ -584,14 +580,14 @@ namespace GTLGeorgiaTechLibrary
             this.metroGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.metroGrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.metroGrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.metroGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle13.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.metroGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
             this.metroGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.metroGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn3,
@@ -599,66 +595,34 @@ namespace GTLGeorgiaTechLibrary
             this.middlenameDataGridViewTextBoxColumn,
             this.lastnameDataGridViewTextBoxColumn});
             this.metroGrid.DataSource = this.personBindingSource;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.metroGrid.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.metroGrid.DefaultCellStyle = dataGridViewCellStyle14;
             this.metroGrid.EnableHeadersVisualStyles = false;
             this.metroGrid.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.metroGrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.metroGrid.Location = new System.Drawing.Point(24, 323);
             this.metroGrid.Name = "metroGrid";
             this.metroGrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.metroGrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.metroGrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle15;
             this.metroGrid.RowHeadersWidth = 51;
             this.metroGrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.metroGrid.RowTemplate.Height = 24;
             this.metroGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.metroGrid.Size = new System.Drawing.Size(354, 437);
             this.metroGrid.TabIndex = 8;
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "id";
-            this.dataGridViewTextBoxColumn3.HeaderText = "id";
-            this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.Width = 125;
-            // 
-            // firstnameDataGridViewTextBoxColumn
-            // 
-            this.firstnameDataGridViewTextBoxColumn.DataPropertyName = "first_name";
-            this.firstnameDataGridViewTextBoxColumn.HeaderText = "first_name";
-            this.firstnameDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.firstnameDataGridViewTextBoxColumn.Name = "firstnameDataGridViewTextBoxColumn";
-            this.firstnameDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // middlenameDataGridViewTextBoxColumn
-            // 
-            this.middlenameDataGridViewTextBoxColumn.DataPropertyName = "middle_name";
-            this.middlenameDataGridViewTextBoxColumn.HeaderText = "middle_name";
-            this.middlenameDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.middlenameDataGridViewTextBoxColumn.Name = "middlenameDataGridViewTextBoxColumn";
-            this.middlenameDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // lastnameDataGridViewTextBoxColumn
-            // 
-            this.lastnameDataGridViewTextBoxColumn.DataPropertyName = "last_name";
-            this.lastnameDataGridViewTextBoxColumn.HeaderText = "last_name";
-            this.lastnameDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.lastnameDataGridViewTextBoxColumn.Name = "lastnameDataGridViewTextBoxColumn";
-            this.lastnameDataGridViewTextBoxColumn.Width = 125;
             // 
             // memberPContainer
             // 
@@ -712,10 +676,6 @@ namespace GTLGeorgiaTechLibrary
             this.menberPersonId.UseSelectable = true;
             this.menberPersonId.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.menberPersonId.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // memberBindingSource
-            // 
-            this.memberBindingSource.DataSource = typeof(GTLCore.Member);
             // 
             // label12
             // 
@@ -889,14 +849,14 @@ namespace GTLGeorgiaTechLibrary
             this.metroGridMember.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.metroGridMember.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.metroGridMember.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.metroGridMember.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle16.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.metroGridMember.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle16;
             this.metroGridMember.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.metroGridMember.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
@@ -904,66 +864,34 @@ namespace GTLGeorgiaTechLibrary
             this.dataGridViewTextBoxColumn2,
             this.personDataGridViewTextBoxColumn});
             this.metroGridMember.DataSource = this.memberBindingSource;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.metroGridMember.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle17.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.metroGridMember.DefaultCellStyle = dataGridViewCellStyle17;
             this.metroGridMember.EnableHeadersVisualStyles = false;
             this.metroGridMember.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.metroGridMember.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.metroGridMember.Location = new System.Drawing.Point(408, 323);
             this.metroGridMember.Name = "metroGridMember";
             this.metroGridMember.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.metroGridMember.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.metroGridMember.RowHeadersDefaultCellStyle = dataGridViewCellStyle18;
             this.metroGridMember.RowHeadersWidth = 51;
             this.metroGridMember.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.metroGridMember.RowTemplate.Height = 24;
             this.metroGridMember.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.metroGridMember.Size = new System.Drawing.Size(355, 437);
             this.metroGridMember.TabIndex = 15;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "ssn";
-            this.dataGridViewTextBoxColumn1.HeaderText = "ssn";
-            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.Width = 125;
-            // 
-            // dataGridViewCheckBoxColumn1
-            // 
-            this.dataGridViewCheckBoxColumn1.DataPropertyName = "is_professor";
-            this.dataGridViewCheckBoxColumn1.HeaderText = "is_professor";
-            this.dataGridViewCheckBoxColumn1.MinimumWidth = 6;
-            this.dataGridViewCheckBoxColumn1.Name = "dataGridViewCheckBoxColumn1";
-            this.dataGridViewCheckBoxColumn1.Width = 125;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "campus_address";
-            this.dataGridViewTextBoxColumn2.HeaderText = "campus_address";
-            this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.Width = 125;
-            // 
-            // personDataGridViewTextBoxColumn
-            // 
-            this.personDataGridViewTextBoxColumn.DataPropertyName = "person";
-            this.personDataGridViewTextBoxColumn.HeaderText = "person";
-            this.personDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.personDataGridViewTextBoxColumn.Name = "personDataGridViewTextBoxColumn";
-            this.personDataGridViewTextBoxColumn.Width = 125;
             // 
             // addToLoanList
             // 
@@ -985,14 +913,14 @@ namespace GTLGeorgiaTechLibrary
             this.metroGrid1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.metroGrid1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.metroGrid1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.metroGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle19.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.metroGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle19;
             this.metroGrid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.metroGrid1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.idDataGridViewTextBoxColumn,
@@ -1005,28 +933,28 @@ namespace GTLGeorgiaTechLibrary
             this.totalloansDataGridViewTextBoxColumn,
             this.loanableacquireDataGridViewTextBoxColumn});
             this.metroGrid1.DataSource = this.materialBindingSource;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.metroGrid1.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle20.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.metroGrid1.DefaultCellStyle = dataGridViewCellStyle20;
             this.metroGrid1.EnableHeadersVisualStyles = false;
             this.metroGrid1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.metroGrid1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.metroGrid1.Location = new System.Drawing.Point(769, 448);
             this.metroGrid1.Name = "metroGrid1";
             this.metroGrid1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.metroGrid1.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle21.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.metroGrid1.RowHeadersDefaultCellStyle = dataGridViewCellStyle21;
             this.metroGrid1.RowHeadersWidth = 51;
             this.metroGrid1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.metroGrid1.RowTemplate.Height = 24;
@@ -1034,103 +962,27 @@ namespace GTLGeorgiaTechLibrary
             this.metroGrid1.Size = new System.Drawing.Size(355, 312);
             this.metroGrid1.TabIndex = 25;
             // 
-            // idDataGridViewTextBoxColumn
-            // 
-            this.idDataGridViewTextBoxColumn.DataPropertyName = "id";
-            this.idDataGridViewTextBoxColumn.HeaderText = "id";
-            this.idDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
-            this.idDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // isbnDataGridViewTextBoxColumn
-            // 
-            this.isbnDataGridViewTextBoxColumn.DataPropertyName = "isbn";
-            this.isbnDataGridViewTextBoxColumn.HeaderText = "isbn";
-            this.isbnDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.isbnDataGridViewTextBoxColumn.Name = "isbnDataGridViewTextBoxColumn";
-            this.isbnDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // languageDataGridViewTextBoxColumn
-            // 
-            this.languageDataGridViewTextBoxColumn.DataPropertyName = "language";
-            this.languageDataGridViewTextBoxColumn.HeaderText = "language";
-            this.languageDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.languageDataGridViewTextBoxColumn.Name = "languageDataGridViewTextBoxColumn";
-            this.languageDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // titleDataGridViewTextBoxColumn
-            // 
-            this.titleDataGridViewTextBoxColumn.DataPropertyName = "title";
-            this.titleDataGridViewTextBoxColumn.HeaderText = "title";
-            this.titleDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.titleDataGridViewTextBoxColumn.Name = "titleDataGridViewTextBoxColumn";
-            this.titleDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // subjectareaDataGridViewTextBoxColumn
-            // 
-            this.subjectareaDataGridViewTextBoxColumn.DataPropertyName = "subject_area";
-            this.subjectareaDataGridViewTextBoxColumn.HeaderText = "subject_area";
-            this.subjectareaDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.subjectareaDataGridViewTextBoxColumn.Name = "subjectareaDataGridViewTextBoxColumn";
-            this.subjectareaDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // descriptionDataGridViewTextBoxColumn
-            // 
-            this.descriptionDataGridViewTextBoxColumn.DataPropertyName = "description";
-            this.descriptionDataGridViewTextBoxColumn.HeaderText = "description";
-            this.descriptionDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.descriptionDataGridViewTextBoxColumn.Name = "descriptionDataGridViewTextBoxColumn";
-            this.descriptionDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // noofcopiesDataGridViewTextBoxColumn
-            // 
-            this.noofcopiesDataGridViewTextBoxColumn.DataPropertyName = "no_of_copies";
-            this.noofcopiesDataGridViewTextBoxColumn.HeaderText = "no_of_copies";
-            this.noofcopiesDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.noofcopiesDataGridViewTextBoxColumn.Name = "noofcopiesDataGridViewTextBoxColumn";
-            this.noofcopiesDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // totalloansDataGridViewTextBoxColumn
-            // 
-            this.totalloansDataGridViewTextBoxColumn.DataPropertyName = "total_loans";
-            this.totalloansDataGridViewTextBoxColumn.HeaderText = "total_loans";
-            this.totalloansDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.totalloansDataGridViewTextBoxColumn.Name = "totalloansDataGridViewTextBoxColumn";
-            this.totalloansDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // loanableacquireDataGridViewTextBoxColumn
-            // 
-            this.loanableacquireDataGridViewTextBoxColumn.DataPropertyName = "loanable_acquire";
-            this.loanableacquireDataGridViewTextBoxColumn.HeaderText = "loanable_acquire";
-            this.loanableacquireDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.loanableacquireDataGridViewTextBoxColumn.Name = "loanableacquireDataGridViewTextBoxColumn";
-            this.loanableacquireDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // materialBindingSource
-            // 
-            this.materialBindingSource.DataSource = typeof(GTLCore.Material);
-            // 
             // materialPConatiner
             // 
             this.materialPConatiner.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.materialPConatiner.Controls.Add(this.txtDescription);
-            this.materialPConatiner.Controls.Add(this.txtLoanable);
+            this.materialPConatiner.Controls.Add(this.description);
+            this.materialPConatiner.Controls.Add(this.loanableaquire);
             this.materialPConatiner.Controls.Add(this.label23);
-            this.materialPConatiner.Controls.Add(this.txtMaterialTotal);
-            this.materialPConatiner.Controls.Add(this.txtNoOfCopies);
+            this.materialPConatiner.Controls.Add(this.totalloans);
+            this.materialPConatiner.Controls.Add(this.noofcopies);
             this.materialPConatiner.Controls.Add(this.label22);
             this.materialPConatiner.Controls.Add(this.label21);
-            this.materialPConatiner.Controls.Add(this.txtSubject);
+            this.materialPConatiner.Controls.Add(this.subjecttitle);
             this.materialPConatiner.Controls.Add(this.label20);
             this.materialPConatiner.Controls.Add(this.label19);
-            this.materialPConatiner.Controls.Add(this.txtIsbn);
-            this.materialPConatiner.Controls.Add(this.txtMaterialTitle);
+            this.materialPConatiner.Controls.Add(this.isbn);
+            this.materialPConatiner.Controls.Add(this.title);
             this.materialPConatiner.Controls.Add(this.label15);
             this.materialPConatiner.Controls.Add(this.label16);
-            this.materialPConatiner.Controls.Add(this.txtMaterialId);
+            this.materialPConatiner.Controls.Add(this.id);
             this.materialPConatiner.Controls.Add(this.label17);
             this.materialPConatiner.Controls.Add(this.label18);
-            this.materialPConatiner.Controls.Add(this.txtLanguage);
+            this.materialPConatiner.Controls.Add(this.language);
             this.materialPConatiner.HorizontalScrollbarBarColor = true;
             this.materialPConatiner.HorizontalScrollbarHighlightOnWheel = false;
             this.materialPConatiner.HorizontalScrollbarSize = 10;
@@ -1142,67 +994,67 @@ namespace GTLGeorgiaTechLibrary
             this.materialPConatiner.VerticalScrollbarHighlightOnWheel = false;
             this.materialPConatiner.VerticalScrollbarSize = 10;
             // 
-            // txtDescription
+            // description
             // 
             // 
             // 
             // 
-            this.txtDescription.CustomButton.Image = null;
-            this.txtDescription.CustomButton.Location = new System.Drawing.Point(153, 1);
-            this.txtDescription.CustomButton.Name = "";
-            this.txtDescription.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.txtDescription.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txtDescription.CustomButton.TabIndex = 1;
-            this.txtDescription.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.txtDescription.CustomButton.UseSelectable = true;
-            this.txtDescription.CustomButton.Visible = false;
-            this.txtDescription.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.materialBindingSource, "description", true));
-            this.txtDescription.Lines = new string[0];
-            this.txtDescription.Location = new System.Drawing.Point(135, 163);
-            this.txtDescription.MaxLength = 32767;
-            this.txtDescription.Name = "txtDescription";
-            this.txtDescription.PasswordChar = '\0';
-            this.txtDescription.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtDescription.SelectedText = "";
-            this.txtDescription.SelectionLength = 0;
-            this.txtDescription.SelectionStart = 0;
-            this.txtDescription.ShortcutsEnabled = true;
-            this.txtDescription.Size = new System.Drawing.Size(175, 23);
-            this.txtDescription.TabIndex = 34;
-            this.txtDescription.UseSelectable = true;
-            this.txtDescription.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.txtDescription.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.description.CustomButton.Image = null;
+            this.description.CustomButton.Location = new System.Drawing.Point(153, 1);
+            this.description.CustomButton.Name = "";
+            this.description.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.description.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.description.CustomButton.TabIndex = 1;
+            this.description.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.description.CustomButton.UseSelectable = true;
+            this.description.CustomButton.Visible = false;
+            this.description.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.materialBindingSource, "description", true));
+            this.description.Lines = new string[0];
+            this.description.Location = new System.Drawing.Point(135, 163);
+            this.description.MaxLength = 32767;
+            this.description.Name = "description";
+            this.description.PasswordChar = '\0';
+            this.description.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.description.SelectedText = "";
+            this.description.SelectionLength = 0;
+            this.description.SelectionStart = 0;
+            this.description.ShortcutsEnabled = true;
+            this.description.Size = new System.Drawing.Size(175, 23);
+            this.description.TabIndex = 34;
+            this.description.UseSelectable = true;
+            this.description.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.description.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // txtLoanable
-            // 
-            // 
+            // loanableaquire
             // 
             // 
-            this.txtLoanable.CustomButton.Image = null;
-            this.txtLoanable.CustomButton.Location = new System.Drawing.Point(153, 1);
-            this.txtLoanable.CustomButton.Name = "";
-            this.txtLoanable.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.txtLoanable.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txtLoanable.CustomButton.TabIndex = 1;
-            this.txtLoanable.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.txtLoanable.CustomButton.UseSelectable = true;
-            this.txtLoanable.CustomButton.Visible = false;
-            this.txtLoanable.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.materialBindingSource, "loanable_acquire", true));
-            this.txtLoanable.Lines = new string[0];
-            this.txtLoanable.Location = new System.Drawing.Point(135, 250);
-            this.txtLoanable.MaxLength = 32767;
-            this.txtLoanable.Name = "txtLoanable";
-            this.txtLoanable.PasswordChar = '\0';
-            this.txtLoanable.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtLoanable.SelectedText = "";
-            this.txtLoanable.SelectionLength = 0;
-            this.txtLoanable.SelectionStart = 0;
-            this.txtLoanable.ShortcutsEnabled = true;
-            this.txtLoanable.Size = new System.Drawing.Size(175, 23);
-            this.txtLoanable.TabIndex = 33;
-            this.txtLoanable.UseSelectable = true;
-            this.txtLoanable.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.txtLoanable.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // 
+            this.loanableaquire.CustomButton.Image = null;
+            this.loanableaquire.CustomButton.Location = new System.Drawing.Point(153, 1);
+            this.loanableaquire.CustomButton.Name = "";
+            this.loanableaquire.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.loanableaquire.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.loanableaquire.CustomButton.TabIndex = 1;
+            this.loanableaquire.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.loanableaquire.CustomButton.UseSelectable = true;
+            this.loanableaquire.CustomButton.Visible = false;
+            this.loanableaquire.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.materialBindingSource, "loanable_acquire", true));
+            this.loanableaquire.Lines = new string[0];
+            this.loanableaquire.Location = new System.Drawing.Point(135, 250);
+            this.loanableaquire.MaxLength = 32767;
+            this.loanableaquire.Name = "loanableaquire";
+            this.loanableaquire.PasswordChar = '\0';
+            this.loanableaquire.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.loanableaquire.SelectedText = "";
+            this.loanableaquire.SelectionLength = 0;
+            this.loanableaquire.SelectionStart = 0;
+            this.loanableaquire.ShortcutsEnabled = true;
+            this.loanableaquire.Size = new System.Drawing.Size(175, 23);
+            this.loanableaquire.TabIndex = 33;
+            this.loanableaquire.UseSelectable = true;
+            this.loanableaquire.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.loanableaquire.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
             // label23
             // 
@@ -1213,67 +1065,67 @@ namespace GTLGeorgiaTechLibrary
             this.label23.TabIndex = 32;
             this.label23.Text = "loanable aquire";
             // 
-            // txtMaterialTotal
+            // totalloans
             // 
             // 
             // 
             // 
-            this.txtMaterialTotal.CustomButton.Image = null;
-            this.txtMaterialTotal.CustomButton.Location = new System.Drawing.Point(153, 1);
-            this.txtMaterialTotal.CustomButton.Name = "";
-            this.txtMaterialTotal.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.txtMaterialTotal.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txtMaterialTotal.CustomButton.TabIndex = 1;
-            this.txtMaterialTotal.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.txtMaterialTotal.CustomButton.UseSelectable = true;
-            this.txtMaterialTotal.CustomButton.Visible = false;
-            this.txtMaterialTotal.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.materialBindingSource, "total_loans", true));
-            this.txtMaterialTotal.Lines = new string[0];
-            this.txtMaterialTotal.Location = new System.Drawing.Point(135, 221);
-            this.txtMaterialTotal.MaxLength = 32767;
-            this.txtMaterialTotal.Name = "txtMaterialTotal";
-            this.txtMaterialTotal.PasswordChar = '\0';
-            this.txtMaterialTotal.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtMaterialTotal.SelectedText = "";
-            this.txtMaterialTotal.SelectionLength = 0;
-            this.txtMaterialTotal.SelectionStart = 0;
-            this.txtMaterialTotal.ShortcutsEnabled = true;
-            this.txtMaterialTotal.Size = new System.Drawing.Size(175, 23);
-            this.txtMaterialTotal.TabIndex = 31;
-            this.txtMaterialTotal.UseSelectable = true;
-            this.txtMaterialTotal.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.txtMaterialTotal.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.totalloans.CustomButton.Image = null;
+            this.totalloans.CustomButton.Location = new System.Drawing.Point(153, 1);
+            this.totalloans.CustomButton.Name = "";
+            this.totalloans.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.totalloans.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.totalloans.CustomButton.TabIndex = 1;
+            this.totalloans.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.totalloans.CustomButton.UseSelectable = true;
+            this.totalloans.CustomButton.Visible = false;
+            this.totalloans.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.materialBindingSource, "total_loans", true));
+            this.totalloans.Lines = new string[0];
+            this.totalloans.Location = new System.Drawing.Point(135, 221);
+            this.totalloans.MaxLength = 32767;
+            this.totalloans.Name = "totalloans";
+            this.totalloans.PasswordChar = '\0';
+            this.totalloans.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.totalloans.SelectedText = "";
+            this.totalloans.SelectionLength = 0;
+            this.totalloans.SelectionStart = 0;
+            this.totalloans.ShortcutsEnabled = true;
+            this.totalloans.Size = new System.Drawing.Size(175, 23);
+            this.totalloans.TabIndex = 31;
+            this.totalloans.UseSelectable = true;
+            this.totalloans.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.totalloans.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // txtNoOfCopies
-            // 
-            // 
+            // noofcopies
             // 
             // 
-            this.txtNoOfCopies.CustomButton.Image = null;
-            this.txtNoOfCopies.CustomButton.Location = new System.Drawing.Point(153, 1);
-            this.txtNoOfCopies.CustomButton.Name = "";
-            this.txtNoOfCopies.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.txtNoOfCopies.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txtNoOfCopies.CustomButton.TabIndex = 1;
-            this.txtNoOfCopies.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.txtNoOfCopies.CustomButton.UseSelectable = true;
-            this.txtNoOfCopies.CustomButton.Visible = false;
-            this.txtNoOfCopies.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.materialBindingSource, "no_of_copies", true));
-            this.txtNoOfCopies.Lines = new string[0];
-            this.txtNoOfCopies.Location = new System.Drawing.Point(135, 192);
-            this.txtNoOfCopies.MaxLength = 32767;
-            this.txtNoOfCopies.Name = "txtNoOfCopies";
-            this.txtNoOfCopies.PasswordChar = '\0';
-            this.txtNoOfCopies.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtNoOfCopies.SelectedText = "";
-            this.txtNoOfCopies.SelectionLength = 0;
-            this.txtNoOfCopies.SelectionStart = 0;
-            this.txtNoOfCopies.ShortcutsEnabled = true;
-            this.txtNoOfCopies.Size = new System.Drawing.Size(175, 23);
-            this.txtNoOfCopies.TabIndex = 30;
-            this.txtNoOfCopies.UseSelectable = true;
-            this.txtNoOfCopies.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.txtNoOfCopies.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // 
+            this.noofcopies.CustomButton.Image = null;
+            this.noofcopies.CustomButton.Location = new System.Drawing.Point(153, 1);
+            this.noofcopies.CustomButton.Name = "";
+            this.noofcopies.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.noofcopies.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.noofcopies.CustomButton.TabIndex = 1;
+            this.noofcopies.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.noofcopies.CustomButton.UseSelectable = true;
+            this.noofcopies.CustomButton.Visible = false;
+            this.noofcopies.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.materialBindingSource, "no_of_copies", true));
+            this.noofcopies.Lines = new string[0];
+            this.noofcopies.Location = new System.Drawing.Point(135, 192);
+            this.noofcopies.MaxLength = 32767;
+            this.noofcopies.Name = "noofcopies";
+            this.noofcopies.PasswordChar = '\0';
+            this.noofcopies.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.noofcopies.SelectedText = "";
+            this.noofcopies.SelectionLength = 0;
+            this.noofcopies.SelectionStart = 0;
+            this.noofcopies.ShortcutsEnabled = true;
+            this.noofcopies.Size = new System.Drawing.Size(175, 23);
+            this.noofcopies.TabIndex = 30;
+            this.noofcopies.UseSelectable = true;
+            this.noofcopies.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.noofcopies.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
             // label22
             // 
@@ -1293,36 +1145,36 @@ namespace GTLGeorgiaTechLibrary
             this.label21.TabIndex = 28;
             this.label21.Text = "no of copies";
             // 
-            // txtSubject
+            // subjecttitle
             // 
             // 
             // 
             // 
-            this.txtSubject.CustomButton.Image = null;
-            this.txtSubject.CustomButton.Location = new System.Drawing.Point(153, 1);
-            this.txtSubject.CustomButton.Name = "";
-            this.txtSubject.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.txtSubject.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txtSubject.CustomButton.TabIndex = 1;
-            this.txtSubject.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.txtSubject.CustomButton.UseSelectable = true;
-            this.txtSubject.CustomButton.Visible = false;
-            this.txtSubject.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.materialBindingSource, "subject_area", true));
-            this.txtSubject.Lines = new string[0];
-            this.txtSubject.Location = new System.Drawing.Point(135, 130);
-            this.txtSubject.MaxLength = 32767;
-            this.txtSubject.Name = "txtSubject";
-            this.txtSubject.PasswordChar = '\0';
-            this.txtSubject.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtSubject.SelectedText = "";
-            this.txtSubject.SelectionLength = 0;
-            this.txtSubject.SelectionStart = 0;
-            this.txtSubject.ShortcutsEnabled = true;
-            this.txtSubject.Size = new System.Drawing.Size(175, 23);
-            this.txtSubject.TabIndex = 26;
-            this.txtSubject.UseSelectable = true;
-            this.txtSubject.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.txtSubject.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.subjecttitle.CustomButton.Image = null;
+            this.subjecttitle.CustomButton.Location = new System.Drawing.Point(153, 1);
+            this.subjecttitle.CustomButton.Name = "";
+            this.subjecttitle.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.subjecttitle.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.subjecttitle.CustomButton.TabIndex = 1;
+            this.subjecttitle.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.subjecttitle.CustomButton.UseSelectable = true;
+            this.subjecttitle.CustomButton.Visible = false;
+            this.subjecttitle.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.materialBindingSource, "subject_area", true));
+            this.subjecttitle.Lines = new string[0];
+            this.subjecttitle.Location = new System.Drawing.Point(135, 130);
+            this.subjecttitle.MaxLength = 32767;
+            this.subjecttitle.Name = "subjecttitle";
+            this.subjecttitle.PasswordChar = '\0';
+            this.subjecttitle.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.subjecttitle.SelectedText = "";
+            this.subjecttitle.SelectionLength = 0;
+            this.subjecttitle.SelectionStart = 0;
+            this.subjecttitle.ShortcutsEnabled = true;
+            this.subjecttitle.Size = new System.Drawing.Size(175, 23);
+            this.subjecttitle.TabIndex = 26;
+            this.subjecttitle.UseSelectable = true;
+            this.subjecttitle.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.subjecttitle.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
             // label20
             // 
@@ -1342,67 +1194,67 @@ namespace GTLGeorgiaTechLibrary
             this.label19.TabIndex = 24;
             this.label19.Text = "subject title";
             // 
-            // txtIsbn
+            // isbn
             // 
             // 
             // 
             // 
-            this.txtIsbn.CustomButton.Image = null;
-            this.txtIsbn.CustomButton.Location = new System.Drawing.Point(153, 1);
-            this.txtIsbn.CustomButton.Name = "";
-            this.txtIsbn.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.txtIsbn.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txtIsbn.CustomButton.TabIndex = 1;
-            this.txtIsbn.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.txtIsbn.CustomButton.UseSelectable = true;
-            this.txtIsbn.CustomButton.Visible = false;
-            this.txtIsbn.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.materialBindingSource, "isbn", true));
-            this.txtIsbn.Lines = new string[0];
-            this.txtIsbn.Location = new System.Drawing.Point(135, 43);
-            this.txtIsbn.MaxLength = 32767;
-            this.txtIsbn.Name = "txtIsbn";
-            this.txtIsbn.PasswordChar = '\0';
-            this.txtIsbn.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtIsbn.SelectedText = "";
-            this.txtIsbn.SelectionLength = 0;
-            this.txtIsbn.SelectionStart = 0;
-            this.txtIsbn.ShortcutsEnabled = true;
-            this.txtIsbn.Size = new System.Drawing.Size(175, 23);
-            this.txtIsbn.TabIndex = 23;
-            this.txtIsbn.UseSelectable = true;
-            this.txtIsbn.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.txtIsbn.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.isbn.CustomButton.Image = null;
+            this.isbn.CustomButton.Location = new System.Drawing.Point(153, 1);
+            this.isbn.CustomButton.Name = "";
+            this.isbn.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.isbn.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.isbn.CustomButton.TabIndex = 1;
+            this.isbn.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.isbn.CustomButton.UseSelectable = true;
+            this.isbn.CustomButton.Visible = false;
+            this.isbn.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.materialBindingSource, "isbn", true));
+            this.isbn.Lines = new string[0];
+            this.isbn.Location = new System.Drawing.Point(135, 43);
+            this.isbn.MaxLength = 32767;
+            this.isbn.Name = "isbn";
+            this.isbn.PasswordChar = '\0';
+            this.isbn.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.isbn.SelectedText = "";
+            this.isbn.SelectionLength = 0;
+            this.isbn.SelectionStart = 0;
+            this.isbn.ShortcutsEnabled = true;
+            this.isbn.Size = new System.Drawing.Size(175, 23);
+            this.isbn.TabIndex = 23;
+            this.isbn.UseSelectable = true;
+            this.isbn.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.isbn.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
-            // txtMaterialTitle
-            // 
-            // 
+            // title
             // 
             // 
-            this.txtMaterialTitle.CustomButton.Image = null;
-            this.txtMaterialTitle.CustomButton.Location = new System.Drawing.Point(153, 1);
-            this.txtMaterialTitle.CustomButton.Name = "";
-            this.txtMaterialTitle.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.txtMaterialTitle.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txtMaterialTitle.CustomButton.TabIndex = 1;
-            this.txtMaterialTitle.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.txtMaterialTitle.CustomButton.UseSelectable = true;
-            this.txtMaterialTitle.CustomButton.Visible = false;
-            this.txtMaterialTitle.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.materialBindingSource, "title", true));
-            this.txtMaterialTitle.Lines = new string[0];
-            this.txtMaterialTitle.Location = new System.Drawing.Point(135, 101);
-            this.txtMaterialTitle.MaxLength = 32767;
-            this.txtMaterialTitle.Name = "txtMaterialTitle";
-            this.txtMaterialTitle.PasswordChar = '\0';
-            this.txtMaterialTitle.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtMaterialTitle.SelectedText = "";
-            this.txtMaterialTitle.SelectionLength = 0;
-            this.txtMaterialTitle.SelectionStart = 0;
-            this.txtMaterialTitle.ShortcutsEnabled = true;
-            this.txtMaterialTitle.Size = new System.Drawing.Size(175, 23);
-            this.txtMaterialTitle.TabIndex = 22;
-            this.txtMaterialTitle.UseSelectable = true;
-            this.txtMaterialTitle.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.txtMaterialTitle.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            // 
+            // 
+            this.title.CustomButton.Image = null;
+            this.title.CustomButton.Location = new System.Drawing.Point(153, 1);
+            this.title.CustomButton.Name = "";
+            this.title.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.title.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.title.CustomButton.TabIndex = 1;
+            this.title.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.title.CustomButton.UseSelectable = true;
+            this.title.CustomButton.Visible = false;
+            this.title.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.materialBindingSource, "title", true));
+            this.title.Lines = new string[0];
+            this.title.Location = new System.Drawing.Point(135, 101);
+            this.title.MaxLength = 32767;
+            this.title.Name = "title";
+            this.title.PasswordChar = '\0';
+            this.title.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.title.SelectedText = "";
+            this.title.SelectionLength = 0;
+            this.title.SelectionStart = 0;
+            this.title.ShortcutsEnabled = true;
+            this.title.Size = new System.Drawing.Size(175, 23);
+            this.title.TabIndex = 22;
+            this.title.UseSelectable = true;
+            this.title.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.title.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
             // label15
             // 
@@ -1422,37 +1274,37 @@ namespace GTLGeorgiaTechLibrary
             this.label16.TabIndex = 20;
             this.label16.Text = "language";
             // 
-            // txtMaterialId
+            // id
             // 
             // 
             // 
             // 
-            this.txtMaterialId.CustomButton.Image = null;
-            this.txtMaterialId.CustomButton.Location = new System.Drawing.Point(153, 1);
-            this.txtMaterialId.CustomButton.Name = "";
-            this.txtMaterialId.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.txtMaterialId.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txtMaterialId.CustomButton.TabIndex = 1;
-            this.txtMaterialId.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.txtMaterialId.CustomButton.UseSelectable = true;
-            this.txtMaterialId.CustomButton.Visible = false;
-            this.txtMaterialId.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.materialBindingSource, "id", true));
-            this.txtMaterialId.Lines = new string[0];
-            this.txtMaterialId.Location = new System.Drawing.Point(135, 14);
-            this.txtMaterialId.MaxLength = 32767;
-            this.txtMaterialId.Name = "txtMaterialId";
-            this.txtMaterialId.PasswordChar = '\0';
-            this.txtMaterialId.ReadOnly = true;
-            this.txtMaterialId.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtMaterialId.SelectedText = "";
-            this.txtMaterialId.SelectionLength = 0;
-            this.txtMaterialId.SelectionStart = 0;
-            this.txtMaterialId.ShortcutsEnabled = true;
-            this.txtMaterialId.Size = new System.Drawing.Size(175, 23);
-            this.txtMaterialId.TabIndex = 17;
-            this.txtMaterialId.UseSelectable = true;
-            this.txtMaterialId.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.txtMaterialId.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.id.CustomButton.Image = null;
+            this.id.CustomButton.Location = new System.Drawing.Point(153, 1);
+            this.id.CustomButton.Name = "";
+            this.id.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.id.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.id.CustomButton.TabIndex = 1;
+            this.id.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.id.CustomButton.UseSelectable = true;
+            this.id.CustomButton.Visible = false;
+            this.id.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.materialBindingSource, "id", true));
+            this.id.Lines = new string[0];
+            this.id.Location = new System.Drawing.Point(135, 14);
+            this.id.MaxLength = 32767;
+            this.id.Name = "id";
+            this.id.PasswordChar = '\0';
+            this.id.ReadOnly = true;
+            this.id.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.id.SelectedText = "";
+            this.id.SelectionLength = 0;
+            this.id.SelectionStart = 0;
+            this.id.ShortcutsEnabled = true;
+            this.id.Size = new System.Drawing.Size(175, 23);
+            this.id.TabIndex = 17;
+            this.id.UseSelectable = true;
+            this.id.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.id.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
             // label17
             // 
@@ -1472,36 +1324,36 @@ namespace GTLGeorgiaTechLibrary
             this.label18.TabIndex = 17;
             this.label18.Text = "id";
             // 
-            // txtLanguage
+            // language
             // 
             // 
             // 
             // 
-            this.txtLanguage.CustomButton.Image = null;
-            this.txtLanguage.CustomButton.Location = new System.Drawing.Point(153, 1);
-            this.txtLanguage.CustomButton.Name = "";
-            this.txtLanguage.CustomButton.Size = new System.Drawing.Size(21, 21);
-            this.txtLanguage.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
-            this.txtLanguage.CustomButton.TabIndex = 1;
-            this.txtLanguage.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.txtLanguage.CustomButton.UseSelectable = true;
-            this.txtLanguage.CustomButton.Visible = false;
-            this.txtLanguage.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.materialBindingSource, "language", true));
-            this.txtLanguage.Lines = new string[0];
-            this.txtLanguage.Location = new System.Drawing.Point(135, 72);
-            this.txtLanguage.MaxLength = 32767;
-            this.txtLanguage.Name = "txtLanguage";
-            this.txtLanguage.PasswordChar = '\0';
-            this.txtLanguage.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.txtLanguage.SelectedText = "";
-            this.txtLanguage.SelectionLength = 0;
-            this.txtLanguage.SelectionStart = 0;
-            this.txtLanguage.ShortcutsEnabled = true;
-            this.txtLanguage.Size = new System.Drawing.Size(175, 23);
-            this.txtLanguage.TabIndex = 17;
-            this.txtLanguage.UseSelectable = true;
-            this.txtLanguage.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.txtLanguage.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.language.CustomButton.Image = null;
+            this.language.CustomButton.Location = new System.Drawing.Point(153, 1);
+            this.language.CustomButton.Name = "";
+            this.language.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.language.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.language.CustomButton.TabIndex = 1;
+            this.language.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.language.CustomButton.UseSelectable = true;
+            this.language.CustomButton.Visible = false;
+            this.language.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.materialBindingSource, "language", true));
+            this.language.Lines = new string[0];
+            this.language.Location = new System.Drawing.Point(135, 72);
+            this.language.MaxLength = 32767;
+            this.language.Name = "language";
+            this.language.PasswordChar = '\0';
+            this.language.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.language.SelectedText = "";
+            this.language.SelectionLength = 0;
+            this.language.SelectionStart = 0;
+            this.language.ShortcutsEnabled = true;
+            this.language.Size = new System.Drawing.Size(175, 23);
+            this.language.TabIndex = 17;
+            this.language.UseSelectable = true;
+            this.language.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.language.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
             // txtLoanSsn
             // 
@@ -1674,40 +1526,40 @@ namespace GTLGeorgiaTechLibrary
             this.bindingSourceMaterial.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.bindingSourceMaterial.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.bindingSourceMaterial.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bindingSourceMaterial.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle22.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bindingSourceMaterial.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle22;
             this.bindingSourceMaterial.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.bindingSourceMaterial.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.m_ssn,
             this.member_loan_no});
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.bindingSourceMaterial.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle23.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.bindingSourceMaterial.DefaultCellStyle = dataGridViewCellStyle23;
             this.bindingSourceMaterial.EnableHeadersVisualStyles = false;
             this.bindingSourceMaterial.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.bindingSourceMaterial.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.bindingSourceMaterial.Location = new System.Drawing.Point(1130, 311);
             this.bindingSourceMaterial.Name = "bindingSourceMaterial";
             this.bindingSourceMaterial.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bindingSourceMaterial.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(174)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle24.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(198)))), ((int)(((byte)(247)))));
+            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bindingSourceMaterial.RowHeadersDefaultCellStyle = dataGridViewCellStyle24;
             this.bindingSourceMaterial.RowHeadersWidth = 51;
             this.bindingSourceMaterial.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.bindingSourceMaterial.RowTemplate.Height = 24;
@@ -1803,6 +1655,154 @@ namespace GTLGeorgiaTechLibrary
             this.metroLabel5.TabIndex = 40;
             this.metroLabel5.Text = "List Of Loans";
             // 
+            // memberBindingSource
+            // 
+            this.memberBindingSource.DataSource = typeof(GTLCore.Member);
+            // 
+            // materialBindingSource
+            // 
+            this.materialBindingSource.DataSource = typeof(GTLCore.Material);
+            // 
+            // idDataGridViewTextBoxColumn
+            // 
+            this.idDataGridViewTextBoxColumn.DataPropertyName = "id";
+            this.idDataGridViewTextBoxColumn.HeaderText = "id";
+            this.idDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
+            this.idDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // isbnDataGridViewTextBoxColumn
+            // 
+            this.isbnDataGridViewTextBoxColumn.DataPropertyName = "isbn";
+            this.isbnDataGridViewTextBoxColumn.HeaderText = "isbn";
+            this.isbnDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.isbnDataGridViewTextBoxColumn.Name = "isbnDataGridViewTextBoxColumn";
+            this.isbnDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // languageDataGridViewTextBoxColumn
+            // 
+            this.languageDataGridViewTextBoxColumn.DataPropertyName = "language";
+            this.languageDataGridViewTextBoxColumn.HeaderText = "language";
+            this.languageDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.languageDataGridViewTextBoxColumn.Name = "languageDataGridViewTextBoxColumn";
+            this.languageDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // titleDataGridViewTextBoxColumn
+            // 
+            this.titleDataGridViewTextBoxColumn.DataPropertyName = "title";
+            this.titleDataGridViewTextBoxColumn.HeaderText = "title";
+            this.titleDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.titleDataGridViewTextBoxColumn.Name = "titleDataGridViewTextBoxColumn";
+            this.titleDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // subjectareaDataGridViewTextBoxColumn
+            // 
+            this.subjectareaDataGridViewTextBoxColumn.DataPropertyName = "subject_area";
+            this.subjectareaDataGridViewTextBoxColumn.HeaderText = "subject_area";
+            this.subjectareaDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.subjectareaDataGridViewTextBoxColumn.Name = "subjectareaDataGridViewTextBoxColumn";
+            this.subjectareaDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // descriptionDataGridViewTextBoxColumn
+            // 
+            this.descriptionDataGridViewTextBoxColumn.DataPropertyName = "description";
+            this.descriptionDataGridViewTextBoxColumn.HeaderText = "description";
+            this.descriptionDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.descriptionDataGridViewTextBoxColumn.Name = "descriptionDataGridViewTextBoxColumn";
+            this.descriptionDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // noofcopiesDataGridViewTextBoxColumn
+            // 
+            this.noofcopiesDataGridViewTextBoxColumn.DataPropertyName = "no_of_copies";
+            this.noofcopiesDataGridViewTextBoxColumn.HeaderText = "no_of_copies";
+            this.noofcopiesDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.noofcopiesDataGridViewTextBoxColumn.Name = "noofcopiesDataGridViewTextBoxColumn";
+            this.noofcopiesDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // totalloansDataGridViewTextBoxColumn
+            // 
+            this.totalloansDataGridViewTextBoxColumn.DataPropertyName = "total_loans";
+            this.totalloansDataGridViewTextBoxColumn.HeaderText = "total_loans";
+            this.totalloansDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.totalloansDataGridViewTextBoxColumn.Name = "totalloansDataGridViewTextBoxColumn";
+            this.totalloansDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // loanableacquireDataGridViewTextBoxColumn
+            // 
+            this.loanableacquireDataGridViewTextBoxColumn.DataPropertyName = "loanable_acquire";
+            this.loanableacquireDataGridViewTextBoxColumn.HeaderText = "loanable_acquire";
+            this.loanableacquireDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.loanableacquireDataGridViewTextBoxColumn.Name = "loanableacquireDataGridViewTextBoxColumn";
+            this.loanableacquireDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "ssn";
+            this.dataGridViewTextBoxColumn1.HeaderText = "ssn";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.Width = 125;
+            // 
+            // dataGridViewCheckBoxColumn1
+            // 
+            this.dataGridViewCheckBoxColumn1.DataPropertyName = "is_professor";
+            this.dataGridViewCheckBoxColumn1.HeaderText = "is_professor";
+            this.dataGridViewCheckBoxColumn1.MinimumWidth = 6;
+            this.dataGridViewCheckBoxColumn1.Name = "dataGridViewCheckBoxColumn1";
+            this.dataGridViewCheckBoxColumn1.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "campus_address";
+            this.dataGridViewTextBoxColumn2.HeaderText = "campus_address";
+            this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.Width = 125;
+            // 
+            // personDataGridViewTextBoxColumn
+            // 
+            this.personDataGridViewTextBoxColumn.DataPropertyName = "person";
+            this.personDataGridViewTextBoxColumn.HeaderText = "person";
+            this.personDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.personDataGridViewTextBoxColumn.Name = "personDataGridViewTextBoxColumn";
+            this.personDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "id";
+            this.dataGridViewTextBoxColumn3.HeaderText = "id";
+            this.dataGridViewTextBoxColumn3.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.Width = 125;
+            // 
+            // firstnameDataGridViewTextBoxColumn
+            // 
+            this.firstnameDataGridViewTextBoxColumn.DataPropertyName = "first_name";
+            this.firstnameDataGridViewTextBoxColumn.HeaderText = "first_name";
+            this.firstnameDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.firstnameDataGridViewTextBoxColumn.Name = "firstnameDataGridViewTextBoxColumn";
+            this.firstnameDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // middlenameDataGridViewTextBoxColumn
+            // 
+            this.middlenameDataGridViewTextBoxColumn.DataPropertyName = "middle_name";
+            this.middlenameDataGridViewTextBoxColumn.HeaderText = "middle_name";
+            this.middlenameDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.middlenameDataGridViewTextBoxColumn.Name = "middlenameDataGridViewTextBoxColumn";
+            this.middlenameDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // lastnameDataGridViewTextBoxColumn
+            // 
+            this.lastnameDataGridViewTextBoxColumn.DataPropertyName = "last_name";
+            this.lastnameDataGridViewTextBoxColumn.HeaderText = "last_name";
+            this.lastnameDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.lastnameDataGridViewTextBoxColumn.Name = "lastnameDataGridViewTextBoxColumn";
+            this.lastnameDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // personBindingSource
+            // 
+            this.personBindingSource.DataSource = typeof(GTLCore.Person);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1839,7 +1839,7 @@ namespace GTLGeorgiaTechLibrary
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.pContainer);
-            this.Controls.Add(this.btnAdd);
+            this.Controls.Add(this.BtnAdd);
             this.Name = "Form1";
             this.Text = "Georgia Tech Library";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -1847,19 +1847,19 @@ namespace GTLGeorgiaTechLibrary
             this.pContainer.PerformLayout();
             this.metroPanel1.ResumeLayout(false);
             this.metroPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.personBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.metroGrid)).EndInit();
             this.memberPContainer.ResumeLayout(false);
             this.memberPContainer.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.memberBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.metroGridMember)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.metroGrid1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.materialBindingSource)).EndInit();
             this.materialPConatiner.ResumeLayout(false);
             this.materialPConatiner.PerformLayout();
             this.metroPanel2.ResumeLayout(false);
             this.metroPanel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSourceMaterial)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.memberBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.materialBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.personBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1871,7 +1871,7 @@ namespace GTLGeorgiaTechLibrary
         private MetroFramework.Controls.MetroTextBox txtMiddleName;
         private MetroFramework.Controls.MetroTextBox txtName;
         private MetroFramework.Controls.MetroTextBox txtPersonId;
-        private MetroFramework.Controls.MetroButton btnAdd;
+        private MetroFramework.Controls.MetroButton BtnAdd;
         private MetroFramework.Controls.MetroButton btnEdit;
         private MetroFramework.Controls.MetroButton btnDelete;
         private MetroFramework.Controls.MetroButton btnCancel;
@@ -1913,34 +1913,25 @@ namespace GTLGeorgiaTechLibrary
         private System.Windows.Forms.BindingSource personBindingSource;
         private System.Windows.Forms.BindingSource memberBindingSource;
         private MetroFramework.Controls.MetroGrid metroGrid1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn isbnDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn languageDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn titleDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn subjectareaDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn descriptionDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn noofcopiesDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn totalloansDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn loanableacquireDataGridViewTextBoxColumn;
         private System.Windows.Forms.BindingSource materialBindingSource;
         private MetroFramework.Controls.MetroPanel materialPConatiner;
         private System.Windows.Forms.Label label19;
-        private MetroFramework.Controls.MetroTextBox txtIsbn;
-        private MetroFramework.Controls.MetroTextBox txtMaterialTitle;
+        private MetroFramework.Controls.MetroTextBox isbn;
+        private MetroFramework.Controls.MetroTextBox title;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
-        private MetroFramework.Controls.MetroTextBox txtMaterialId;
+        private MetroFramework.Controls.MetroTextBox id;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
-        private MetroFramework.Controls.MetroTextBox txtLanguage;
-        private MetroFramework.Controls.MetroTextBox txtDescription;
-        private MetroFramework.Controls.MetroTextBox txtLoanable;
+        private MetroFramework.Controls.MetroTextBox language;
+        private MetroFramework.Controls.MetroTextBox description;
+        private MetroFramework.Controls.MetroTextBox loanableaquire;
         private System.Windows.Forms.Label label23;
-        private MetroFramework.Controls.MetroTextBox txtMaterialTotal;
-        private MetroFramework.Controls.MetroTextBox txtNoOfCopies;
+        private MetroFramework.Controls.MetroTextBox totalloans;
+        private MetroFramework.Controls.MetroTextBox noofcopies;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label21;
-        private MetroFramework.Controls.MetroTextBox txtSubject;
+        private MetroFramework.Controls.MetroTextBox subjecttitle;
         private System.Windows.Forms.Label label20;
         private MetroFramework.Controls.MetroTextBox txtLoanSsn;
         private System.Windows.Forms.Label label13;
@@ -1967,6 +1958,15 @@ namespace GTLGeorgiaTechLibrary
         private MetroFramework.Controls.MetroLabel metroLabel3;
         private MetroFramework.Controls.MetroLabel metroLabel4;
         private MetroFramework.Controls.MetroLabel metroLabel5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn isbnDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn languageDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn titleDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn subjectareaDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn descriptionDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn noofcopiesDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn totalloansDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn loanableacquireDataGridViewTextBoxColumn;
     }
 }
 

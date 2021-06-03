@@ -14,14 +14,14 @@ namespace Services
             builder.RegisterType<LoanRepository>().As<ILoanRepository>();
             _container = builder.Build();
         }
-        public static bool Delete(int LoanId)
-        {
-            return _container.Resolve<ILoanRepository>().Delete(LoanId);
-        }
-        public static List<Loan> GetAll()
-        {
-            return _container.Resolve<ILoanRepository>().GetAll();
-        }
+        //public static bool Delete(int LoanId)
+        //{
+        //    return _container.Resolve<ILoanRepository>().Delete(LoanId);
+        //}
+        //public static List<Loan> GetAll()
+        //{
+        //    return _container.Resolve<ILoanRepository>().GetAll();
+        //}
         public static Loan Save(Loan loan, EntityState state)
         {
             if (state == EntityState.Added)

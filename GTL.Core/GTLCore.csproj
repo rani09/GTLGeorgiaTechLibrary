@@ -56,7 +56,6 @@
     <Compile Include="IMemberRepository.cs" />
     <Compile Include="IPersonRepository.cs" />
     <Compile Include="Loan.cs" />
-    <Compile Include="Loan_part.cs" />
     <Compile Include="Material.cs" />
     <Compile Include="Member.cs" />
     <Compile Include="Person.cs" />

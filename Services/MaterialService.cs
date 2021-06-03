@@ -14,7 +14,6 @@ namespace Services
             builder.RegisterType<MaterialRepository>().As<IMaterialRepository>();
             _container = builder.Build();
         }
-
         public static bool Delete(int materialId)
         {
             return _container.Resolve<IMaterialRepository>().Delete(materialId);
